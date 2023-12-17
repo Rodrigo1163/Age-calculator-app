@@ -1,0 +1,214 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(/age-calculator-app-main/assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-ExtraBoldItalic;
+    src: url(/age-calculator-app-main/assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(/age-calculator-app-main/assets/fonts/Poppins-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins-ExtraBoldItalic;
+}
+
+
+body {
+    background-color: hsl(0, 0%, 86%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    overflow: hidden;
+    background-color: white;
+    width: 40%;
+    border-radius: 20px 20px 100px 20px;
+    
+}
+
+.containerBox{
+    display: flex;
+    width: 80%;
+    padding-right: 18%;
+    align-items: start;
+    margin: 5% 7% 0 7%;
+    gap: 20px;
+    
+}
+.inputs{
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid hsl(0, 0%, 86%);
+    outline: none;
+    padding: 5px;
+    border-radius: 6px;
+    padding-left: 10px;
+    font-family: Poppins-Bold;
+    
+}
+.span-required{
+    display: none;
+    font-family: Poppins-Regular;
+    color: rgb(255, 0, 0);
+    text-align: start;
+    font-size: 12px;
+    margin: 3px 0 0 1px;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+    
+}
+.box label{
+    color: hsl(0, 1%, 44%);
+    font-size: 10px;
+    font-family: Poppins-Bold;
+    letter-spacing: 2px;
+}
+.resultados{
+    display: flex;
+    align-items: start;
+    margin: 0 7% 0 7%;
+    flex-direction: column;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+.containResultados{
+    display: flex;
+    align-items: center;
+    font-size: 65px;
+}
+.containResultados span{
+    color: blueviolet;
+    font-size: 68px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.button button{
+    border: none;
+    outline: none;
+    background-image: url('/age-calculator-app-main/assets/images/icon-arrow.svg');
+    border-radius: 50%;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.2s;
+}
+.button button:hover{
+    transform: scale(1.2, 1.2)
+}
+.linha{
+    width: 74%;
+    border-color: rgb(226, 226, 226);
+    border-width: 0.5px;
+    border-style: solid;
+}
+
+footer{
+    text-align: center;
+    width: 60%;
+    font-size: 80%;
+    margin-top: 10px;
+}
+@media (max-width: 1024px){
+    .container{
+        width: 50%;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        position: relative;
+    }
+    .inputData{
+        width: 100%;
+    }
+    .containerBox{
+        width: 100%;
+    }
+    .button{
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+    
+    .botão{
+        position: sticky;
+        width: 50px;
+        z-index: 1;
+        
+    }
+    .linha{
+        left: 10%;
+        position: absolute;
+        width: 80%;
+        
+    }
+    .containResultados{
+        font-size: 48px;
+    }
+    .containResultados span{
+        font-size: 52px;
+    }
+    
+}
+@media (max-width: 540px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 375px){
+    .container{
+        width: 90%;
+    }
+    .inputs{
+        width: 100%;
+    }
+
+    .button{
+        margin-top: 2em;
+    }
+   
+    .resultados{
+        line-height: 60px;
+    }
+    .containResultados{
+        font-size: 40px;
+    }
+    .span-required{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 320px){
+    .inputs{
+        width: 100%;
+    }
+    .containResultados{
+        font-size: 40px;
+    }
+    .containResultados span{
+        font-size: 50px;
+    }
+    .span-required{
+        font-size: 8px;
+    }
+}
