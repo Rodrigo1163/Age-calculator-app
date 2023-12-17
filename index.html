@@ -17,19 +17,19 @@
       <div class="containerBox">
         <div class="box dia">
           <label for="day" class="inforLabel">DAY</label>
-          <input type="text" class="inputs required" maxlength="2">
+          <input type="text" class="inputs required" maxlength="2" onkeypress="return SomenteNumero(event)">
           <span class="span-required">Campo Vazio</span>  
         </div>
         
         <div class="box mes">
           <label for="month" class="inforLabel">MONTH</label>
-          <input type="text" class="inputs required" maxlength="2">
+          <input type="text" class="inputs required" maxlength="2" onkeypress="return SomenteNumero(event)">
           <span class="span-required">Campo Vazio</span> 
         </div>
         
         <div class="box ano">
           <label for="years" class="inforLabel">YEAR</label>
-          <input type="text" class="inputs required" id="inputAno" maxlength="4">
+          <input type="text" class="inputs required" id="inputAno" maxlength="4" onkeypress="return SomenteNumero(event)">
           <span class="span-required">Campo Vazio</span> 
         </div>
 
