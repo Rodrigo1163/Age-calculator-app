@@ -40,13 +40,15 @@ function validaData () {
     
     if (mes < 1 || mes > 12 || dia < 1) {
         alert('Está data não existe');
-        limpaInput()
+        limpaInput();
+	campos[0].focus();
         return false
     }
 
     else if (dia > diasNoMes[mes]) {
         alert('Está data não existe');
-        limpaInput() 
+        limpaInput();
+	campos[0].focus();
         return false
     }  
     diaValidate();
