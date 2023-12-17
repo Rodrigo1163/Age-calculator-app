@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/age-calculator-app-main/assets/css/style.css">
+  <script src="/age-calculator-app-main/assets/js/script.js" defer></script>
+  <title>Frontend Mentor | Age calculator app</title>
+  
+</head>
+<body>
+
+  <div class="container">
+    <form class="form inputData" id="formulario" >
+      <div class="containerBox">
+        <div class="box dia">
+          <label for="day" class="inforLabel">DAY</label>
+          <input type="text" class="inputs required" maxlength="2" oninput="focusAutomarico()" onkeypress="return SomenteNumero(event)">
+          <span class="span-required">Campo Vazio</span>  
+        </div>
+        
+        <div class="box mes">
+          <label for="month" class="inforLabel">MONTH</label>
+          <input type="text" class="inputs required" maxlength="2" oninput="focusAutomarico()" onkeypress="return SomenteNumero(event)">
+          <span class="span-required">Campo Vazio</span> 
+        </div>
+        
+        <div class="box ano">
+          <label for="years" class="inforLabel">YEAR</label>
+          <input type="text" class="inputs required" id="inputAno" maxlength="4" onkeypress="return SomenteNumero(event)">
+          <span class="span-required">Campo Vazio</span> 
+        </div>
+
+      </div>
+      
+      <div class="button">
+        <hr class="linha">
+        <button class="botão" type="submit"></button>
+      </div>
+    
+    </form>
+    
+    <div class="resultados">
+      
+      <div class="containResultados">
+        <span class="result">--</span>
+        <p>years</p>
+      </div>
+      <div class="containResultados">
+        <span class="result">--</span>
+        <p>months</p>
+      </div>
+      <div class="containResultados">
+        <span class="result">--</span>
+        <p>days</p>
+      </div>
+    
+    </div>
+  
+  </div>
+  <footer>Challenge by <a href="https://www.frontendmentor.io/?ref=challenge">Frontend Mentor</a>. Coded by <a href="https://github.com/Rodrigo1163/Age-calculator-app?tab=readme-ov-file">Rodrigo Sena</a>.</footer>
+</body>
+</html>
