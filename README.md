@@ -11,6 +11,8 @@ Voçê vai colocar a sua data de nascimento nos respoectivos campos de input, lo
 * [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 * [JAVASCRIPT](https://www.javascript.com/)
 
-### Contados
+### Contatos
 * Email - rodrigo.sena1163@gmail.com
 * linkedin - https://www.linkedin.com/in/rodrigo-sena-315838181/
+### Acesso
+site - https://calculandoaidade.netlify.app/
