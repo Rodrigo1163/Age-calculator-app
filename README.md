@@ -1,4 +1,4 @@
-![logo do projeto](https://github.com/Rodrigo1163/Age-calculator-app/assets/100447199/7aff1933-5fb3-4aa1-a970-a7ce49fa84a4)
+![logo do projeto](https://github.com/Rodrigo1163/Age-calculator-app/assets/100447199/ddba2cf3-0373-48d7-afa5-1c8be6765885)
 
 # Frontend Mentor - Age calculator app
 Bem-vindo à nossa Calculadora de Idade, uma ferramenta intuitiva e fácil de usar projetada para descobrir instantaneamente a idade com base na data de nascimento. Desenvolvida utilizando as tecnologias web mais recentes - HTML, CSS e JavaScript - nossa calculadora oferece uma experiência suave e interativa.
