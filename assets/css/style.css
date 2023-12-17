@@ -1,14 +1,14 @@
 @font-face {
     font-family: Poppins-Bold;
-    src: url(/age-calculator-app-main/assets/fonts/Poppins-Bold.ttf);
+    src: url(assets/fonts/Poppins-Bold.ttf);
 }
 @font-face {
     font-family: Poppins-ExtraBoldItalic;
-    src: url(/age-calculator-app-main/assets/fonts/Poppins-ExtraBoldItalic.ttf);
+    src: url(assets/fonts/Poppins-ExtraBoldItalic.ttf);
 }
 @font-face {
     font-family: Poppins-Regular;
-    src: url(/age-calculator-app-main/assets/fonts/Poppins-Regular.ttf);
+    src: url(assets/fonts/Poppins-Regular.ttf);
 }
 
 *{
@@ -103,7 +103,7 @@ body {
 .button button{
     border: none;
     outline: none;
-    background-image: url('/age-calculator-app-main/assets/images/icon-arrow.svg');
+    background-image: url('assets/images/icon-arrow.svg');
     border-radius: 50%;
     cursor: pointer;
     width: 60px;
