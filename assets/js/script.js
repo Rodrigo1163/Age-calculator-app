@@ -24,9 +24,9 @@ function validaData () {
         ano: campos[2].value
     }
     
-    const dia = String(data.dia)
-    const mes = String(data.mes)
-    const ano = String(data.ano)
+    const dia = data.dia
+    const mes = data.mes
+    const ano = data.ano
     
     const diasNoMes = [ 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 ] 
 
